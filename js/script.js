@@ -65,3 +65,8 @@ window.onclick = (e) => {
         itemDetailModal.style.display = 'none';
     }
 }
+
+document.querySelector('#hamburger-menu').onclick = (e) => {
+    e.preventDefault(); // Mencegah aksi default anchor tag
+    navbarNav.classList.toggle('active');
+};
