@@ -551,7 +551,7 @@ footer .credit {
 
 footer .credit a {
     color: var(--primary);
-    font-weight: 700;
+    /* font-weight: 700; */
 }
 
 /* Modal Box */
